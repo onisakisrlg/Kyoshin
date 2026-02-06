@@ -36,7 +36,7 @@ const Philosophy: React.FC = () => {
                 </div>
                 <div className="relative h-64 rounded-lg overflow-hidden group">
                   <img 
-                    src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" 
+                    src="https://i.postimg.cc/m2rHnYrF/17fed8f0af69f580c7b159b02d66e1eb.jpg" 
                     alt="Strategic Meeting" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />

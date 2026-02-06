@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
       <div className="w-full md:w-1/2 h-[50vh] md:h-screen relative overflow-hidden">
         <div className="absolute inset-0 bg-slate-900/20 z-10"></div>
         <img
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+          src="https://i.postimg.cc/RVC7Brg3/959c5f984c6976c00c27901fbb5b261b.jpg"
           alt="Modern Architecture"
           className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-[2s]"
         />
