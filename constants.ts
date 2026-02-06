@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, TrendingUp, Smartphone, ShoppingBag } from 'lucide-react';
+import { TrendingUp, Smartphone, ShoppingBag } from 'lucide-react';
 import { CompanyInfo, NavItem, ServiceItem } from './types';
 
 export const COMPANY_INFO: CompanyInfo = {
