@@ -24,8 +24,8 @@ export const SERVICES: ServiceItem[] = [
     subtitle: "Consulting",
     description: "中国郵政への深い知見と日本郵政の成功事例を融合し、伝統的な郵政業務の復興と高度化を支援します。拠点の最適化、商品企画、サービス向上に焦点を当て、物流・金融部門の高品質な発展を促進します。",
     icon: TrendingUp,
-    // Using high quality corporate architecture/logistics image
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+    // Using user provided image
+    image: "https://i.postimg.cc/jdT7s62q/81dedd91e1b010a333766a1bb36d1825.jpg"
   },
   {
     id: "marketing",
