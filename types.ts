@@ -12,6 +12,7 @@ export interface ServiceItem {
   description: string;
   icon: React.ComponentType<any>;
   image: string;
+  orientation?: 'landscape' | 'portrait';
 }
 
 export interface CompanyInfo {
