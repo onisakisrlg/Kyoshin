@@ -18,6 +18,8 @@ const Services: React.FC = () => {
         <div className="space-y-24">
           {SERVICES.map((service, index) => {
             const isPortrait = service.orientation === 'portrait';
+            // Special handling for the marketing image to ensure it's fully visible as requested
+            const isMarketing = service.id === 'marketing';
 
             return (
               <div 
@@ -36,12 +38,16 @@ const Services: React.FC = () => {
                     <div className={`relative rounded-2xl overflow-hidden shadow-2xl ${
                       isPortrait 
                         ? 'aspect-[9/19.5] w-full' // Phone screen ratio
-                        : 'h-[300px] md:h-[400px]' // Standard landscape
+                        : isMarketing 
+                          ? 'w-full' // Let natural height dictate for marketing to show full image
+                          : 'h-[300px] md:h-[400px]' // Standard landscape fixed height
                     }`}>
                       <img 
                         src={service.image} 
                         alt={service.title} 
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        className={`w-full transition-transform duration-700 group-hover:scale-105 ${
+                          isMarketing ? 'h-auto' : 'h-full object-cover'
+                        }`}
                       />
                       <div className="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition-colors"></div>
                     </div>

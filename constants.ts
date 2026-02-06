@@ -33,8 +33,8 @@ export const SERVICES: ServiceItem[] = [
     subtitle: "Marketing",
     description: "Tencent（騰訊）広告の運用ノウハウと中国のデジタル戦略を駆使し、日本の実店舗（飲食、温泉、商業施設など）へのオンライン集客を強化。訪日中国人観光客や在日華人へ向けた高精度なターゲティングとO2O施策を提供します。",
     icon: Smartphone,
-    // Using image representing digital connection/mobile
-    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+    // Using user provided image
+    image: "https://i.postimg.cc/dtrt0DD1/5ea54c97998539bbf2b549d807dd5080.jpg",
     orientation: 'landscape'
   },
   {
