@@ -13,7 +13,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "ホーム", href: "#home" },
   { label: "企業理念", href: "#philosophy" },
   { label: "事業内容", href: "#services" },
-  { label: "会社概要", href: "#about" },
   { label: "お問い合わせ", href: "#contact" },
 ];
 
